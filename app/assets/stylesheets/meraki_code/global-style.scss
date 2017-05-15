@@ -1,0 +1,17 @@
+/*
+Theme: Tribus - Multipurpose Template
+Theme URI: https://wrapbootstrap.com/theme/tribus-multipurpose-template-WB0367H15
+Author: Webpixels
+Author URI: http://www.webpixels.io
+License URI: http://wrapbootstrap.com
+*/
+
+// SASS variables
+@import "variables/_variables.scss";
+@import "variables/_custom.scss";
+
+// Header
+@import "header/header.scss";
+
+// Base styles
+@import "core/_base.scss";

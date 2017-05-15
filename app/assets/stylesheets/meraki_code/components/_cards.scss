@@ -1,0 +1,107 @@
+.card {
+    position: relative;
+    //padding: $card-spacer-y $card-spacer-x;
+    z-index: 100;
+    border-radius: $card-border-radius;
+    background: $card-bg;
+    //overflow: hidden;
+}
+.card-inverse {
+    background: $card-inverse-bg;
+}
+.card-body {
+    padding: $card-spacer-y $card-spacer-x;
+}
+.card-title {
+    padding: $card-spacer-y $card-spacer-x;
+}
+.card-title > .heading {
+    margin: 0;
+    display: inline-block;
+}
+.card-title > .btn-aux {
+    float: right;
+    font-size: $font-size-sm;
+    color: $color-gray-light;
+}
+.card-title > .btn-aux > .aux-text {
+    display: inline-block;
+    margin-left: 5px;
+    color: $color-gray-dark;
+}
+.card-title > .btn-aux:hover > .aux-text {
+    color: $color-base-1;
+}
+.card-footer {
+    padding: $spacer $card-spacer-x;
+}
+.card-image-container {
+    position: relative;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+    background-color: #efe9e8;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .card > .row [class^=col-md] .card-image > img {
+        top: 0;
+        left: 0;
+        height: 100%!important;
+        width: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+}
+
+// Cards: Horizontal
+.card-horizontal .card-body{
+    padding: $spacer * 1.5;
+}
+.card-horizontal .card-footer {
+    padding-left: $spacer * 1.5;
+    padding-right: $spacer * 1.5;
+}
+
+.card-blockquote {
+    border-left: 0;
+
+}
+
+.card-blockquote > p {
+    font-size: $font-size-lg;
+    line-height: 1.7;
+    color: $color-gray-light;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.card-blockquote > p > i {
+    font-size: 30px;
+    color: $color-gray-lighter;
+    display: inline-block;
+}
+.card-blockquote > p > .quote-left {
+    position: relative;
+    margin-right: 10px;
+    top: -12px;
+}
+.card-blockquote > p > .quote-right {
+    position: relative;
+    margin-left: 10px;
+    bottom: -12px;
+}
+
+.card-blockquote > footer {
+    font-size: $font-size-base;
+    margin-top: $spacer * 2;
+    color: $color-base-1;
+}

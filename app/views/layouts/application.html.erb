@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Merakicode</title>
-    <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+<html lang="en">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<title>Tribus: Mutipurpose Template</title>
+
+<!-- Page loader -->
+<script src="assets/pace/js/pace.min.js"></script>
+<link rel="stylesheet" href="assets/meraki_code/pace/css/pace-minimal.css" type="text/css">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="assets/meraki_code/bootstrap/css/bootstrap.min.css" type="text/css">
+
+<!-- CSS animation library -->
+<link rel="stylesheet" href="assets/meraki_code/animate/animate.min.css" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+
+<!-- Plugins -->
+<link rel="stylesheet" href="assets/meraki_code/bootstrap-select/css/bootstrap-select.min.css">
+<link rel="stylesheet" href="assets/meraki_code/swiper/css/swiper.min.css">
+
+<!-- Light Gallery -->
+<link rel="stylesheet" href="assets/meraki_code/lightgallery/css/lightgallery.min.css">
+
+<!-- Icons -->
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css" type="text/css">
+<link rel="stylesheet" href="fonts/line-icons/line-icons.css" type="text/css">
+<link rel="stylesheet" href="fonts/line-icons-pro/line-icons-pro.css" type="text/css">
+
+<!-- Global style (main) -->
+<link id="stylesheet" type="text/css" href="assets/meraki_code/global-style.min.css" rel="stylesheet" media="screen">
+<!-- Custom style - Remove if not necessary -->
+<link type="text/css" href="assets/meraki_code/stylesheet/custom-style.css" rel="stylesheet">
+
+<!-- Favicon -->
+<link href="images/favicon.png" rel="icon" type="image/png">
+
+
+<!-- RS5.0 -->
+<link rel="stylesheet" type="text/css" href="assets/meraki_code/revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="assets/meraki_code/revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="assets/meraki_code/revolution/css/navigation.css">
+
+<!-- Cube Portfolio -->
+<link rel="stylesheet" href="assets/meraki_code/cubeportfolio/css/cubeportfolio.min.css">
+
+
+     <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application' %>
+    <%= javascript_include_tag 'application' %>
+
   </head>
 
-  <body>
+<body>
     <%= yield %>
   </body>
 </html>
