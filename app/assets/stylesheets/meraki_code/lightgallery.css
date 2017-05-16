@@ -421,7 +421,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background: url("youtube-play.png") no-repeat scroll 0 0 transparent;
 }
 .lg-outer .lg-has-youtube:hover .lg-video-play {
-  background: url("youtube-play.png") no-repeat scroll 0 -60px transparent;
+  background: url("
+    youtube-play.png") no-repeat scroll 0 -60px transparent;
 }
 .lg-outer .lg-video-object {
   width: 100% !important;

@@ -3,5 +3,17 @@ class MerakiCodeController < ApplicationController
 
   def home
   end
+
+  def contact
+  end
+
+  def features
+  end
+
+  def blog
+  end
+
+  def coming_soon
+  end
   
 end

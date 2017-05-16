@@ -1,0 +1,66 @@
+
+<!-- MAIN WRAPPER -->
+<div class="body-wrap">
+    <section class="slice">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="">
+                        <div class="text-cover-wrapper">
+                            <h3 class="text-cover-subtitle text-normal c-white">
+                                Meraki Code is in<br />maintenance mode.
+                            </h3>
+                            <div class="clearfix"></div>
+                            <div class="text-cover-p c-white mt-3">
+                                <p>
+                                    The website is in maintenance mode!
+                                    <br />
+                                   Meraki: Doing things with love, passion and a lot of soul. Putting "yourself" in your work.
+
+                                </p>
+
+                                <!-- Countdown timer -->
+                                <div id="countdown" class="countdown countdown--style-2 mt-3"></div>
+
+                                <ul class="social-media social-media--style-1 social-media-brand-color social-media-circle">
+                                    <li>
+                                        <a href="#" class="facebook" target="_blank" title="Facebook">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="instagram" target="_blank">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div><!-- END: body-wrap -->
+
+<!-- Countdown -->
+<script src="assets/meraki_code/countdown/js/jquery.countdown.min.js"></script>
+<script type="text/javascript">
+$('#countdown').countdown('2017/01/30').on('update.countdown', function(event) {
+    var $this = $(this).html(event.strftime(''
+      + '<div class="countdown-item"><span class="countdown-digit">%-D</span> <span class="countdown-label">day%!d</span></div>'
+      + '<div class="countdown-item"><span class="countdown-digit">%H</span> <span class="countdown-label">hr</span></div>'
+      + '<div class="countdown-item"><span class="countdown-digit">%M</span> <span class="countdown-label">min</span></div>'
+      + '<div class="countdown-item"><span class="countdown-digit">%S</span> <span class="countdown-label">sec</span></div>'
+    ));
+});
+</script>
+
+<!-- Backstretch - It allows you to add a dynamically-resized, slideshow-capable background image to any page or element -->
+<script src="assets/meraki_code/jquery.backstretch.js"></script>
+<script>
+    $.backstretch([
+        "assets/meraki_code/backgrounds/img-1.jpg"
+    ], {duration: 5000, fade: 2500});
+</script>
+

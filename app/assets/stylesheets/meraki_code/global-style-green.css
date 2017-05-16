@@ -14639,7 +14639,7 @@ body {
   background-color: rgba(76, 217, 100, 0.5);
   background-repeat: no-repeat;
   background-size: 32px 64px;
-  background-image: url("../images/icons/google-maps/icon-controller.svg");
+  background-image: url("google-maps/icon-controller.svg");
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
