@@ -3189,8 +3189,8 @@ iframe {
 /* ==========  Blzee  ========== */
 @font-face {
   font-family: 'Blzee';
-  src: url("../fonts/blzee/blzee.eot");
-  src: url("../fonts/blzee/blzee.eot?#iefix") format("embedded-opentype"), url("../fonts/blzee/blzee.woff") format("woff"), url("../fonts/blzee/blzee.ttf") format("truetype");
+  src: url("blzee/blzee.eot");
+  src: url("blzee/blzee.eot?#iefix") format("embedded-opentype"), url("blzee/blzee.woff") format("woff"), url("blzee/blzee.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
